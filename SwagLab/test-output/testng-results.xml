@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="16" total="28" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-21T13:27:00 IST" name="Suite" finished-at="2023-04-21T13:27:14 IST" duration-ms="14609">
+    <groups>
+    </groups>
+    <test started-at="2023-04-21T13:27:00 IST" name="functional" finished-at="2023-04-21T13:27:14 IST" duration-ms="14609">
+      <class name="testcases.FilterByPriceTestCase">
+        <test-method signature="FilterByPrice()[pri:0, instance:testcases.FilterByPriceTestCase@ffaa6af]" started-at="2023-04-21T13:27:14 IST" name="FilterByPrice" finished-at="2023-04-21T13:27:14 IST" duration-ms="518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilterByPrice -->
+      </class> <!-- testcases.FilterByPriceTestCase -->
+      <class name="testcases.SelectProductByNameTestCase">
+        <test-method signature="SelectProduct()[pri:0, instance:testcases.SelectProductByNameTestCase@3ee37e5a]" started-at="2023-04-21T13:27:10 IST" name="SelectProduct" finished-at="2023-04-21T13:27:11 IST" duration-ms="582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectProduct -->
+      </class> <!-- testcases.SelectProductByNameTestCase -->
+      <class name="testcases.FilterByNameTestCase">
+        <test-method signature="FilterByName()[pri:0, instance:testcases.FilterByNameTestCase@17497425]" started-at="2023-04-21T13:27:13 IST" name="FilterByName" finished-at="2023-04-21T13:27:14 IST" duration-ms="600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilterByName -->
+      </class> <!-- testcases.FilterByNameTestCase -->
+      <class name="testcases.DummyfailTest">
+        <test-method signature="FailTestExample()[pri:0, instance:testcases.DummyfailTest@53ce1329]" started-at="2023-04-21T13:27:14 IST" name="FailTestExample" finished-at="2023-04-21T13:27:14 IST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FailTestExample -->
+      </class> <!-- testcases.DummyfailTest -->
+      <class name="testcases.SelectProductByImageTestCase">
+        <test-method signature="SelectProduct()[pri:0, instance:testcases.SelectProductByImageTestCase@2ea41516]" started-at="2023-04-21T13:27:11 IST" name="SelectProduct" finished-at="2023-04-21T13:27:11 IST" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectProduct -->
+      </class> <!-- testcases.SelectProductByImageTestCase -->
+      <class name="testcases.YourCartTestCases">
+        <test-method signature="YourCart()[pri:0, instance:testcases.YourCartTestCases@3a44431a]" started-at="2023-04-21T13:27:11 IST" name="YourCart" finished-at="2023-04-21T13:27:12 IST" duration-ms="514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- YourCart -->
+      </class> <!-- testcases.YourCartTestCases -->
+      <class name="testcases.LoginTestCases">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginTestCases@593aaf41]" started-at="2023-04-21T13:27:00 IST" name="setup" finished-at="2023-04-21T13:27:07 IST" duration-ms="7169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyUser(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTestCases@593aaf41]" started-at="2023-04-21T13:27:08 IST" name="verifyUser" data-provider="readData" finished-at="2023-04-21T13:27:09 IST" duration-ms="1387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUser -->
+        <test-method signature="verifyUser(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTestCases@593aaf41]" started-at="2023-04-21T13:27:09 IST" name="verifyUser" data-provider="readData" finished-at="2023-04-21T13:27:09 IST" duration-ms="260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUser -->
+        <test-method signature="verifyUser(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTestCases@593aaf41]" started-at="2023-04-21T13:27:09 IST" name="verifyUser" data-provider="readData" finished-at="2023-04-21T13:27:10 IST" duration-ms="676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUser -->
+        <test-method signature="verifyUser(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTestCases@593aaf41]" started-at="2023-04-21T13:27:10 IST" name="verifyUser" data-provider="readData" finished-at="2023-04-21T13:27:10 IST" duration-ms="481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUser -->
+        <test-method is-config="true" signature="tear()[pri:0, instance:testcases.LoginTestCases@593aaf41]" started-at="2023-04-21T13:27:14 IST" name="tear" finished-at="2023-04-21T13:27:14 IST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+      </class> <!-- testcases.LoginTestCases -->
+      <class name="testcases.AddressAndContinueTestCases">
+        <test-method signature="AddressAndContinue()[pri:0, instance:testcases.AddressAndContinueTestCases@3c7f66c4]" started-at="2023-04-21T13:27:12 IST" name="AddressAndContinue" finished-at="2023-04-21T13:27:13 IST" duration-ms="850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddressAndContinue -->
+      </class> <!-- testcases.AddressAndContinueTestCases -->
+      <class name="testcases.TitleTestCase">
+        <test-method signature="Tiltle()[pri:0, instance:testcases.TitleTestCase@194bcebf]" started-at="2023-04-21T13:27:13 IST" name="Tiltle" finished-at="2023-04-21T13:27:13 IST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tiltle -->
+      </class> <!-- testcases.TitleTestCase -->
+    </test> <!-- functional -->
+  </suite> <!-- Suite -->
+</testng-results>
